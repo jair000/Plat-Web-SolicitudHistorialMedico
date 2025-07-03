@@ -1,0 +1,31 @@
+.register-section {
+  min-height: 100vh;
+  background: url('/src/assets/img/login/fondo-login.jpg')  center center;
+  background-size: cover;
+  padding: 40px 0;
+}
+
+.register-card {
+  background-color: rgba(255, 255, 255, 0.95);
+  border-radius: 1rem;
+}
+
+.register-card .form-control {
+  border-radius: 0.5rem;
+  height: 45px;
+}
+
+.register-card button {
+  height: 45px;
+  font-weight: 500;
+}
+
+.register-card a {
+  font-size: 0.9rem;
+  color: #28a745;
+  text-decoration: none;
+}
+
+.register-card a:hover {
+  text-decoration: underline;
+}

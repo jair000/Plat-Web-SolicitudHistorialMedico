@@ -1,0 +1,71 @@
+.medical-request{
+    width: 100%;
+    background-color: #f7fcfc;
+    box-shadow: 0px 0 30px rgba(0, 0, 0, 0.05);
+    padding: 50px;
+}
+
+.medical-request .section-title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.medical-request label {
+  font-weight: 600;
+  margin-bottom: 6px;
+  display: block;
+}
+
+.medical-request .form-control,
+.medical-request .form-check-input {
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.medical-request .form-check-input {
+    border: rgb(92, 92, 92) 2px solid;
+}
+
+/* .form-check {
+  display: flex;
+  align-items: center;Centra verticalmente si el label es alto 
+} */
+
+.form-check .form-check-input {
+  margin: 0; /* Elimina márgenes por defecto para alinearlo con label "terminos y condiciones"*/
+}
+
+.medical-request .form-check {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.medical-request .form-check label {
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+
+.medical-request .form-check label a {
+  text-decoration: none;
+}
+
+.medical-request .btn-enviar {
+  background-color: #3fbbc0;
+  color: white;
+  padding: 10px 24px;
+  border: none;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.medical-request .btn-enviar:hover {
+  background-color: #419fa2;
+}
+
+.medical-request .aviso {
+  font-size: 0.9rem;
+  color: #666;
+  margin-top: 10px;
+}

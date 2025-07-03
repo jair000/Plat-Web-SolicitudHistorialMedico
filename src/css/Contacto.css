@@ -1,0 +1,51 @@
+.contact {
+    padding: 50px;
+    box-shadow: 0px 0 30px rgba(0, 0, 0, 0.05);
+}
+
+.contact .section-title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.contact .info-item {
+  background: #f7f8fa;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+  height: 100%;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.05);
+}
+
+.contact .info-item i {
+  font-size: 32px;
+  color: #3fbbc0;
+  margin-bottom: 10px;
+}
+
+.contact .php-email-form .form-control {
+  border-radius: 8px;
+  padding: 12px;
+  box-shadow: none;
+}
+
+.contact .php-email-form button[type="submit"] {
+  background: #3fbbc0;
+  border: none;
+  padding: 10px 24px;
+  color: #fff;
+  border-radius: 8px;
+  transition: 0.4s;
+}
+
+.contact .php-email-form button[type="submit"]:hover {
+  background: #3b9a9d;
+}
+
+.contact .loading,
+.contact .error-message,
+.contact .sent-message {
+  display: none;
+  font-size: 14px;
+  margin-top: 10px;
+}

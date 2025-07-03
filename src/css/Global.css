@@ -1,0 +1,38 @@
+/* global.css */
+
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Establecer altura y ancho completos */
+html, body, #root {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  /* evita que se vea el scroll lateral. */
+  /* overflow-x: hidden; */
+}
+
+/* Estilo base del body */
+body {
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(#f7f8fa);
+  color: #333;
+  /* display: flex;
+  flex-direction: column; permite header / main / footer */
+}
+
+/* hace que la sección se detenga 80px más abajo, 
+lo que compensa el header sticky. */
+[id] {
+  scroll-margin-top: 110px; /* ajusta según la altura del header */
+}
+
+/* #carrusel {
+  scroll-margin-top: 400px;
+  border: 4px dashed red;
+} */

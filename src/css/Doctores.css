@@ -1,0 +1,65 @@
+.doctors {
+  background-color: #f8f9fa;
+  box-shadow: 0px 0 30px rgba(0, 0, 0, 0.05);
+  padding: 50px;
+}
+
+.team-member {
+  background-color: #fff;
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  transition: transform 0.3s ease;
+}
+
+.team-member:hover {
+  transform: translateY(-5px);
+}
+
+.member-img {
+  position: relative;
+  overflow: hidden;
+}
+
+.member-img img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.social {
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 10px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.member-img:hover .social {
+  opacity: 1;
+}
+
+.social a {
+  background-color: color(srgb 1 1 1 / 0.75);
+  color: #3fbbc0;
+  padding: 6px;
+  border-radius: 10%;
+  height: 35px;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.member-info h4 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+
+.member-info span {
+  font-size: 0.95rem;
+  color: #666;
+}

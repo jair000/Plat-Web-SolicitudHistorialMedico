@@ -1,0 +1,31 @@
+.consulta-estado {
+    padding: 50px;
+}
+
+.consulta-estado .estado {
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-weight: 500;
+  font-size: 0.9rem;
+  text-transform: capitalize;
+}
+
+.consulta-estado .estado.pendiente {
+  background-color: #fff3cd;
+  color: #856404;
+}
+
+.consulta-estado .estado.en-proceso {
+  background-color: #d1ecf1;
+  color: #0c5460;
+}
+
+.consulta-estado .estado.aprobado {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.consulta-estado .estado.rechazado {
+  background-color: #f8d7da;
+  color: #721c24;
+}

@@ -1,0 +1,28 @@
+.perfil-section {
+  
+  background: linear-gradient(to right, #f0f2f5, #e9ecef);
+  padding: 60px 0;
+}
+
+.perfil-card {
+  background-color: #ffffff;
+  border-radius: 1rem;
+}
+
+.foto-perfil img {
+  width: 240px;
+  height: 240px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.foto-perfil input[type="file"] {
+  max-width: 200px;
+  margin: 0 auto;
+  font-size: 0.85rem;
+}
+
+.foto-perfil label {
+  font-size: 0.9rem;
+  color: #555;
+}

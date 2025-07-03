@@ -1,0 +1,33 @@
+.login-section {
+  min-height: 100vh;
+  /* background: #f8f9fa; */
+  background: url('/src/assets/img/login/fondo-login.jpg')  center center;
+  background-size: cover;
+  padding: 40px 0;
+}
+
+.login-card {
+  background-color: #fff;
+  border-radius: 1rem;
+  max-width: 100%;
+}
+
+.login-card .form-control {
+  border-radius: 0.5rem;
+  height: 45px;
+}
+
+.login-card button {
+  height: 45px;
+  font-weight: 500;
+}
+
+.login-card a {
+  font-size: 0.9rem;
+  color: #28a745;
+  text-decoration: none;
+}
+
+.login-card a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,78 @@
+.mi-historial {
+    background-color: #f7fcfc;
+    box-shadow: 0px 0 30px rgba(0, 0, 0, 0.05);
+    padding: 50px;
+}
+
+.mi-historial .historial-item {
+  border-radius: 12px;
+  transition: all 0.3s ease-in-out;
+  background-color: #ffffff;
+  overflow: hidden;
+}
+
+.mi-historial .card-body {
+  display: flex;
+  padding: 0;
+  height: 100%;
+}
+
+.mi-historial .doctor-img-container {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f8f9fa;
+  padding: 20px;
+}
+
+.mi-historial .doctor-img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #dee2e6;
+}
+
+.mi-historial .historial-content {
+  flex: 1;
+  padding: 20px;
+}
+
+.mi-historial .card-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.mi-historial .archivos ul {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.mi-historial .archivos li {
+  margin-bottom: 6px;
+}
+
+.mi-historial .archivos a.btn {
+  border-radius: 4px;
+  font-size: 0.85rem;
+  padding: 4px 8px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .mi-historial .card-body {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .mi-historial .historial-content {
+    padding: 20px;
+  }
+
+  .mi-historial .doctor-img-container {
+    padding: 20px;
+  }
+}

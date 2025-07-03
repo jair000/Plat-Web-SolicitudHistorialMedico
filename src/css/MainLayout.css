@@ -1,0 +1,12 @@
+.main-layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;           /* Para que el layout ocupe toda la pantalla */
+  background-color: #ebf716;
+}
+
+.main-content {
+  flex: 1;                     /* Ocupar el espacio restante antes del footer */
+  padding: 20px;
+  /* background-color: #ff2525; */
+}
