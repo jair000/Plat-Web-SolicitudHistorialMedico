@@ -5,25 +5,25 @@ const doctores = [
     nombre: 'Walter White',
     puesto: 'Médico Internista',
     descripcion: 'Amplio conocimiento de enfermedades comunes.',
-    imagen: '/src/assets/img/doctores/doctors-1.jpg',
+    imagen: '/img/doctores/doctors-1.jpg',
   },
   {
     nombre: 'Sarah Jhonson',
     puesto: 'Médico Familiar',
     descripcion: 'Enfocado en el historial y atención continua.',
-    imagen: '/src/assets/img/doctores/doctors-2.jpg',
+    imagen: '/img/doctores/doctors-2.jpg',
   },
   {
     nombre: 'William Anderson',
     puesto: 'Médico General',
     descripcion: 'Puede revisar solicitudes básicas.',
-    imagen: '/src/assets/img/doctores/doctors-3.jpg',
+    imagen: '/img/doctores/doctors-3.jpg',
   },
   {
     nombre: 'Amanda Jepson',
     puesto: 'Médico Legal',
     descripcion: 'Validación formal de documentos.',
-    imagen: '/src/assets/img/doctores/doctors-4.jpg',
+    imagen: '/img/doctores/doctors-4.jpg',
   },
 ];
 
