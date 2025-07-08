@@ -28,7 +28,7 @@ function Perfil() {
           <div className="col-lg-4 text-center mb-4 mb-lg-0">
             <div className="foto-perfil">
               <img
-                src={fotoPerfil || '/src/assets/img/perfil.jpg'}
+                src={fotoPerfil || '/img/perfil.jpg'}
                 alt="Foto de perfil"
                 className="img-thumbnail"
               />

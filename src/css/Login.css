@@ -1,7 +1,7 @@
 .login-section {
   min-height: 100vh;
   /* background: #f8f9fa; */
-  background: url('/src/assets/img/login/fondo-login.jpg')  center center;
+  background: url('/img/login/fondo-login.jpg') center center;
   background-size: cover;
   padding: 40px 0;
 }

@@ -10,10 +10,10 @@ const Footer = () => {
               <span className="sitename">Medicio</span>
             </a>
             <div className="footer-contact pt-3">
-              <p>A108 Adam Street</p>
-              <p>New York, NY 535022</p>
-              <p className="mt-3"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
-              <p><strong>Email:</strong> <span>info@example.com</span></p>
+              <p>106 La vecindad del chavo</p>
+              <p>Cerro candela</p>
+              <p className="mt-3"><strong>Teléfono:</strong> <span>+51 986820832</span></p>
+              <p><strong>Email:</strong> <span>jair000@ejemplo.com</span></p>
             </div>
             <div className="social-links d-flex mt-4">
               <a href="#"><i className="bi bi-twitter-x"></i></a>
@@ -23,12 +23,12 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* Links */}
+          {/* Enlaces */}
           {[
-            { title: 'Useful Links', items: ['Home', 'About us', 'Services', 'Terms of service', 'Privacy policy'] },
-            { title: 'Our Services', items: ['Web Design', 'Web Development', 'Product Management', 'Marketing', 'Graphic Design'] },
-            { title: 'Hic solutasetp', items: ['Molestiae accusamus iure', 'Excepturi dignissimos', 'Suscipit distinctio', 'Dilecta', 'Sit quas consectetur'] },
-            { title: 'Nobis illum', items: ['Ipsam', 'Laudantium dolorum', 'Dinera', 'Trodelas', 'Flexo'] }
+            { title: 'Enlaces útiles', items: ['Inicio', 'Sobre nosotros', 'Servicios', 'Términos de servicio', 'Política de privacidad'] },
+            { title: 'Nuestros servicios', items: ['Consulta médica', 'Historial clínico', 'Gestión de citas', 'Atención personalizada', 'Soporte en línea'] },
+            { title: 'Recursos médicos', items: ['Guía de pacientes', 'Preguntas frecuentes', 'Consejos de salud', 'Noticias médicas', 'Contacto'] },
+            { title: 'Información', items: ['Quiénes somos', 'Equipo médico', 'Testimonios', 'Blog', 'Ubicación'] }
           ].map((section, index) => (
             <div className="col-lg-2 col-md-3 footer-links" key={index}>
               <h4>{section.title}</h4>
@@ -43,13 +43,13 @@ const Footer = () => {
       </div>
 
       <div className="container text-center mt-4 copyright">
-        <p>© 
-          <span>Copyright</span> 
-          <strong className="px-1 sitename">Medicio</strong> 
-          <span>All Rights Reserved</span>
+        <p>©
+          <span>Derechos reservados</span>
+          <strong className="px-1 sitename">Medicio</strong>
+          <span>Todos los derechos reservados</span>
         </p>
         <div className="credits">
-          Designed by  <a href="https://bootstrapmade.com/" target="_blank" rel="noopener noreferrer">BootstrapMade</a>
+          Diseñado por <a href="https://github.com/jair000" target="_blank" rel="noopener noreferrer">Samir y sus dibujitos</a>
         </div>
       </div>
     </footer>

@@ -1,7 +1,7 @@
 import '../css/Carrusel.css'
-import img1 from '../assets/img/carrusel/hero-carousel-1.jpg'
-import img2 from '../assets/img/carrusel/hero-carousel-2.jpg'
-import img3 from '../assets/img/carrusel/hero-carousel-3.jpg'
+import img1 from '/img/carrusel/hero-carousel-1.jpg'
+import img2 from '/img/carrusel/hero-carousel-2.jpg'
+import img3 from '/img/carrusel/hero-carousel-3.jpg'
 
 
 function Carrusel() {
@@ -23,29 +23,29 @@ function Carrusel() {
         {/* Slides */}
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img src={img1} className="d-block w-100" alt="Slide 1" />
+            <img src={img1} className="d-block w-100" alt="Imagen atención médica" />
             <div className="container">
-              <h2>Welcome to Medicio</h2>
-              <p>Lorem ipsum dolor sit amet...</p>
-              <a href="#about" className="btn-get-started">Read More</a>
+              <h2>Bienvenido a Medicio</h2>
+              <p>Tu salud es nuestra prioridad. Accede fácilmente a tu historial médico y mantente informado sobre tu bienestar.</p>
+              <a href="#about" className="btn-get-started">Conoce más</a>
             </div>
           </div>
 
           <div className="carousel-item">
-            <img src={img2} className="d-block w-100" alt="Slide 2" />
+            <img src={img2} className="d-block w-100" alt="Imagen consulta médica" />
             <div className="container">
-              <h2>At vero eos et accusamus</h2>
-              <p>Nam libero tempore, cum soluta nobis est...</p>
-              <a href="#about" className="btn-get-started">Read More</a>
+              <h2>Solicita tu historial médico</h2>
+              <p>Gestiona tus solicitudes de historial médico de manera rápida, segura y desde cualquier lugar.</p>
+              <a href="#about" className="btn-get-started">Solicitar ahora</a>
             </div>
           </div>
 
           <div className="carousel-item">
-            <img src={img3} className="d-block w-100" alt="Slide 3" />
+            <img src={img3} className="d-block w-100" alt="Imagen resultados médicos" />
             <div className="container">
-              <h2>Temporibus autem quibusdam</h2>
-              <p>Beatae vitae dicta sunt explicabo...</p>
-              <a href="#about" className="btn-get-started">Read More</a>
+              <h2>Consulta tus resultados</h2>
+              <p>Revisa el estado de tus solicitudes y accede a tus documentos médicos en línea, sin complicaciones.</p>
+              <a href="#about" className="btn-get-started">Ver resultados</a>
             </div>
           </div>
         </div>

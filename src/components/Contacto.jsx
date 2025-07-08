@@ -74,7 +74,7 @@ function Contacto() {
                 <div className="info-item d-flex flex-column justify-content-center align-items-center">
                   <i className="bi bi-telephone"></i>
                   <h3>Llámanos</h3>
-                  <p>+51 999 999 999</p>
+                  <p>+51 936820832</p>
                 </div>
               </div>
 
@@ -82,7 +82,7 @@ function Contacto() {
                 <div className="info-item d-flex flex-column justify-content-center align-items-center">
                   <i className="bi bi-envelope"></i>
                   <h3>Correo</h3>
-                  <p>info@medicina.com</p>
+                  <p>PabloDeLosBackyardigans@gmail.com</p>
                 </div>
               </div>
             </div>

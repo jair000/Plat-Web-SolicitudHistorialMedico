@@ -40,7 +40,7 @@ function Login() {
         <div className="row justify-content-center align-items-center">
           <div className="col-lg-5 d-none d-lg-block">
             <img
-              src="/src/assets/img/login/login.jpg"
+              src="/img/login/login.jpg"
               alt="Login illustration"
               className="img-fluid rounded shadow"
             />

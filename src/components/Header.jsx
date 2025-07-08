@@ -1,5 +1,5 @@
 import '../css/Header.css';
-import logo from '../assets/img/logo.jpg';
+import logo from '/img/logo.jpg';
 import { useEffect } from 'react';
 
 //react router
@@ -25,10 +25,10 @@ function Header() {
       <div className="topbar py-2 text-white">
         <div className="container d-flex flex-column flex-md-row justify-content-center justify-content-md-between align-items-center">
           <div className="d-none d-md-flex align-items-center">
-            <i className="bi bi-clock me-2"></i> Monday - Saturday, 8AM to 10PM
+            <i className="bi bi-clock me-2"></i> Lunes - Sábado, 8AM a 10PM
           </div>
           <div className="d-flex align-items-center">
-            <i className="bi bi-phone me-2"></i> Call us now +1 5589 55488 55
+            <i className="bi bi-phone me-2"></i> Llámanos ahora +51 936820832
           </div>
         </div>
       </div>
@@ -44,10 +44,10 @@ function Header() {
             <ul>
               <li><a href="#carrusel" className="active">Inicio</a></li>
               {/* <li><Link to="/carrusel" className="active">Inicio</Link></li> */}
-              
+
               <li><a href="#solicitar">Solicitar Historial Médico</a></li>
               {/* <li><Link to="/solicitar">Solicitar Historial Médico</Link></li> */}
-              
+
               <li><a href="#consulta-estado">Consultar Estado de Solicitudes</a></li>
               {/* <li><Link to="/consulta-estado">Consultar Estado de Solicitudes</Link></li> */}
 
